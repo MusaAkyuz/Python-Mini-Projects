@@ -54,3 +54,10 @@ def read_file_with_loop():
     while line != "":
         print(line)
         line = file_desc4.readline().rstrip("\n")
+
+
+def read_file_with_loop_easy_way():
+    file_desc5 = open("file.txt", "r")
+
+    for line in file_desc5:
+        print(line.rstrip("\n"))
