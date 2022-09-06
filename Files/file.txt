@@ -1,0 +1,3 @@
+Hello file!
+Bye file!
+New line/life baby!
