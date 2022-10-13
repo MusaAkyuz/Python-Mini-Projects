@@ -9,3 +9,11 @@ print(lis[0][0])
 #--------
 #[1, 2, 3]
 #1
+
+print(len(lis))
+print(len(lis[0]))
+
+# OUTPUT
+#--------
+#3
+#3
