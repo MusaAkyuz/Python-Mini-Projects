@@ -4,6 +4,5 @@ then welcomes them. Note that input will pop up a dialog box.
 Enter Sarah in the pop-up box when you are prompted so your output will
 match the desired output.
 '''
-
 name = input("Enter your name")
 print(f"Hello {name}")
