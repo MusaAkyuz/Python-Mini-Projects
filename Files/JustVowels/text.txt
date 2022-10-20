@@ -1,0 +1,58 @@
+Psikoloji ile fizyoloji arasında öğrenme teorilerini ve uygulamalarını 
+açıklama noktasında anlamlı bir bilgi paylaşımı vardır, ancak son 
+zamanlarda öğrenme olayının daha iyi anlaşılabilmesi için öğrenmenin 
+biyolojik temellerine dikkat çekilmektedir. Daha önce hayvanlar üzerinde 
+yapılan bazı psikolojik deneyler, öğrenme ve hafızanın biyolojik temelleri 
+ile ilgili başka bir bakış açısı sağlamaktadır. Daha sonraları Hughlings 
+Jackson, Donald Hebb, Penfield, Ragnar Granit gibi bazı nörofizyoloklar 
+tarafından “neurocognitive science” olarak adlandırılan bu alanda daha çok 
+çalışma yapılmaya başlanmıştır.
+Sinir sistemi, gelişmiş organizmalarda psikolojik sistemin en önemli 
+bileşenidir. Sinir sistemi iç ve dış olayları algılar ve tepkide bulunur. 
+İçsel ve dışsal olaylar duyu organları tarafından algılanır. Duyu 
+organları bilgiyi beynin arka kısmında omurilikte çok sayıdaki sinir 
+ağları yardımıyla merkezi sinir sistemine iletirler . Duyu organları 
+aracılığıyla çevreden pek çok bilgi alınmaktadır. Ancak bunun çok az bir 
+kısmı bilinçli olarak kaydedilmektedir. Geri kalan kısmı ise ya bilinç 
+altı işleme uğramakta, yada hiç kullanılmamaktadır.
+Sinir hücresi, impuls olarak adlandırılan elektriksel değişikliği iletmek 
+için özelleştirilmiş bir hücredir. Akson herhangi bir yerden uyarılabilir 
+ve meydana gelen impuls uyarılan yerden merkeze iletilir. İmpulsun meydana 
+gelmesi bir zar olayıdır. Aksonun içindeki sıvı ile dışındaki sıvının 
+iyonik yapısı çok farklıdır, dolayısıyla elektriksel yükleri de farklıdır. 
+Sinir ve kas hücre zarındaki aksiyon potansiyeli zar boyunca iletilir. 
+Sinirdeki akson potansiyeline sinir impulsu adı verilir.
+Bir hücre zarının iki tarafı arasında elektriksel potansiyel meydana 
+gelebilir ve çeşitli mekanizmalarla bu potansiyel muhafaza edilebilir. 
+İyonlar zarın bir tarafından öbür tarafına aktarılabilir ve elektrik 
+yüklerinin ayrılması ile zarın iki tarafı arasında elektrik potansiyel 
+farkı yaratabilirler.
+Ayrıca hücre zarının bir tarafında zarı geçebilen ve geçemeyen iyonlar 
+varsa, yine bir potansiyel fark meydana gelebilir. Eğer hücre zarını 
+geçebilen partiküller sadece pasif olarak hareket edebiliyorlarsa, meydana 
+gelecek iyon konsantrasyonu dağılışına Gibbs- Donna dengesi denir. Böyle 
+bir dengede hücre zarını geçemeyen iyonların bulunduğu tarafta, iyonların 
+elektrik yüküne göre bir potansiyel fark meydana gelir
+Sinir istirahat halindeyken polarize durumdadır. Hücre zarının dışı 
+pozitif, içi ise negatif yük taşımaktadır. Uyarılma sonucu sodyumun içeri 
+girmesi ile depolarize olur, bir başka değişle kutuplaşma bozulmuş olur. 
+Sinirin tekrar normal duruma dönmesi olayına repolarizasyon demir. Nöronun 
+uyarılan bölgesinde depolarize olması ile iç ve dış potansiyel tersine 
+dönmüştür. Uyarılan bölgenin hemen yanındaki bölge ise polarize 
+durumdadır. Uyarılmış ve uyarılmamış bölgeler arasındaki elektrik yükü 
+farkı nedeniyle bir elektrik akımı meydana gelir. Bu akım sinir boyunca 
+devam eder ve impuls iletilmiş olur . Doğan sinir elektriği nöronlar 
+arasında sinapslar aracılığıyla iletilir. .
+Belleği, kabaca ve anlaşılma kolaylığı olması yönünde şimdilik kısa ve 
+uzun süreli bellek olarak ikiye; uzun süreli belleği de, bilinçli ve 
+bilinçsiz olarak tekrar ikiye ayırabiliriz. Kısa süreli belleğin bilgileri 
+depolama süresi milisaniyelerle ölçülürken uzun süreli bellekte anıların 
+kalış süresi sonsuzdur.
+Uzun süreli belleğin oluşumunda temel olay uzun süreli potansiasyondur. 
+Bir sinir yolu üst üste kısa süreli ve güçlü olmayan elektriksel 
+darbelerle uyarıldıktan bir süre sonra, tek tek uyarılara daha yüksek 
+genlikli yanıtlar vermeye başlarlar. Yani bu sinir yolu güçlenmiş 
+potansiyalize olmuştur. Bir başka deyişle bir bilgi üst üste yinelenerek 
+öğrenilmişse, sinir sisteminde kendisine bir yol açar. bilgi ile ilgili 
+uyaran geldiğinde, bilginin yolu belli ve açık olduğundan ve bu yol ilgili 
+bilgileri hatırlanır.
