@@ -34,4 +34,4 @@ with open("text.txt", encoding="utf-8") as file:
 
 unique = set(allWords)
 filteredUnique = set(filteredAllWords)
-print(unique)
+print(filteredUnique)
