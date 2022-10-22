@@ -1,16 +1,37 @@
 
-# Just vovels
-fileD = open("text.txt", encoding="utf8")
-deleting = ["a", "e", "ı", "i", "o", "ö", "ü", "u", "?", "!", ".", ","]
-my_alphabet = []
+# Just not vovels
 
-for line in fileD:
-    line = list(line)
-    for letter in line:
-        if letter not in deleting:
-            my_alphabet.append(letter)
+# keeps all words from input like file or string
+allWords = []
+filteredAllWords = []
 
-print(my_alphabet)
+# for the filtering text
+filtersWord = ["a", "e", "ı", "i", "u", "ü", "o", "ö", " ", "?", "!", ",", ".", "\"", "-", "“", "v", "\n"]
 
-    
+# alltext line by line
+allText = []
 
+# unique all wrods
+unique = []
+filteredUnique = []
+
+with open("text.txt", encoding="utf-8") as file:
+    allText = file.readlines()
+
+with open("text.txt", encoding="utf-8") as file:
+    while True:
+        char = file.read(1)
+        
+        # checking the EOF (End Of File) to quit from loop
+        if not char:
+            break
+
+        allWords.append(char.lower())
+        # filtering words
+        if char not in filtersWord:
+            filteredAllWords.append(char.lower())
+
+
+unique = set(allWords)
+filteredUnique = set(filteredAllWords)
+print(unique)

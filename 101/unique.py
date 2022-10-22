@@ -9,3 +9,4 @@ for item in str1:
     dictionary[item] = str1.count(item)
 
 print(dictionary)
+print(uniqueStr1)
