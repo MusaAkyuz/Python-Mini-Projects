@@ -12,4 +12,4 @@ class Solution(object):
         Answers within 10-5 of the actual answer will be accepted.
         """
 
-        return (sum(salary) - min(salary) - max(salary)) / (len(salary) - 2)
+        return float((sum(salary) - min(salary) - max(salary))) / (len(salary) - 2)
