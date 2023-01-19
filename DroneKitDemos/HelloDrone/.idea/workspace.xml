@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f80027aa-5e80-4cc7-b76d-b1c76e3a19da" name="Changes" comment="" />
+    <list default="true" id="f80027aa-5e80-4cc7-b76d-b1c76e3a19da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OpenCvDemos/LaneDetection/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenCvDemos/VideoDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenCvDemos/VideoDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OpenCvDemos/VideoDemo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../OpenCvDemos/VideoDemo/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

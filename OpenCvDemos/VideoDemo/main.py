@@ -2,6 +2,10 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
+image_path = r"lane.jpg"
+image1 = cv2.imread(image_path)
+plt.imshow(image1)
+
 
 def grey(image):
     # grayscale
@@ -83,81 +87,20 @@ def make_points(image, average):
     return np.array([x1, y1, x2, y2])
 
 
-'''
-cap = cv2.VideoCapture('road.mp4')
+gry = grey(image1)
+cv2.imshow("Gray", gry)
+copy = np.copy(image1)
+edges = cv2.Canny(copy, 50, 150)
+isolated = region(edges)
+cv2.imshow("edges", edges)
+cv2.imshow("isolated", isolated)
+cv2.waitKey(0)
 
-while cap.isOpened():
-    ret, frame = cap.read()
-    # if frame is read correctly ret is True
-    if not ret:
-        print("Can't receive frame (stream end?). Exiting ...")
-        break
+lines = cv2.HoughLinesP(isolated, 2, np.pi / 180, 100, np.array([]), minLineLength=40, maxLineGap=5)
 
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    cv2.imshow('frame', gray)
+averaged_lines = average(copy, lines)
+black_lines = display_lines(copy, averaged_lines)
 
-    copy = np.copy(gray)
-    edges = cv2.Canny(copy, 50, 150)
-    isolated = region(edges)
-    cv2.imshow("edges", edges)
-    cv2.imshow("isolated", isolated)
-
-    lines = cv2.HoughLinesP(isolated, 2, np.pi / 180, 100, np.array([]), minLineLength=40, maxLineGap=5)
-
-    averaged_lines = average(copy, lines)
-    black_lines = display_lines(copy, averaged_lines)
-
-    lanes = cv2.addWeighted(copy, 0.8, black_lines, 1, 1)
-    cv2.imshow("lanes", lanes)
-
-    if cv2.waitKey(10) == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-'''
-
-'''
-image_path = r"lane.jpg"
-image1 = cv2.imread(image_path)
-plt.imshow(image1)
-'''
-
-cap = cv2.VideoCapture('road2.mp4')
-
-while cap.isOpened():
-    ret, frame = cap.read()
-    # if frame is read correctly ret is True
-    if not ret:
-        print("Can't receive frame (stream end?). Exiting ...")
-        break
-
-    # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    # cv2.imshow('frame', frame)
-    try:
-        copy = np.copy(frame)
-        edges = cv2.Canny(copy, 50, 150)
-        isolated = region(edges)
-        # cv2.imshow("edges",edges)
-        # cv2.imshow("isolated",isolated)
-
-        lines = cv2.HoughLinesP(isolated, 2, np.pi / 180, 100, np.array([]), minLineLength=40, maxLineGap=5)
-        averaged_lines = average(copy, lines)
-        black_lines = display_lines(copy, averaged_lines)
-
-        lanes = cv2.addWeighted(copy, 0.8, black_lines, 1, 1)
-        cv2.imshow("lanes", lanes)
-
-        '''
-        if cv2.waitKey(0) == ord('q'):
-            break
-        '''
-
-    except:
-        pass
-
-    finally:
-        cv2.waitKey(100)
-
-cap.release()
-cv2.destroyAllWindows()
+lanes = cv2.addWeighted(copy, 0.8, black_lines, 1, 1)
+cv2.imshow("lanes", lanes)
+cv2.waitKey(0)
