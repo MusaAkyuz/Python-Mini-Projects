@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21a85988-db25-41ad-87fa-de45a7f3b9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenCvDemos/LaneDetection/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DroneKitDemos/HelloDrone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DroneKitDemos/HelloDrone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCvDemos/VideoDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCvDemos/VideoDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCvDemos/VideoDemo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCvDemos/VideoDemo/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="21a85988-db25-41ad-87fa-de45a7f3b9cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
