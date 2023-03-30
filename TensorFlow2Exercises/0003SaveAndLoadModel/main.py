@@ -89,7 +89,7 @@ loss, acc = model.evaluate(test_images, test_labels, verbose=2)
 print("Restored model, accuracy: {:5.2f}%".format(100 * acc))
 
 # tüm modeli kaydetmek için 
-model.save('saved_model/my_model')
+model.save('0003SaveAndLoadModel/saved_model/my_model')
 
 # sonradan bu model tekrar kullanılabilir
 new_model = tf.keras.models.load_model('saved_model/my_model')
