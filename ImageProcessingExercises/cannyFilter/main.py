@@ -1,7 +1,7 @@
 import cv2
 
-img = cv2.imread("cannyFilter\\mitsubishi.jpg")
+img = cv2.imread("cannyFilter\\road3.jpg")
 
-canny = cv2.Canny(img, 127, 150)
+canny = cv2.Canny(img, 127, 180)
 
-cv2.imwrite("cannyFilter\\cannyImages4.jpg", canny)
+cv2.imwrite("cannyFilter\\cannyImagesRoad3.jpg", canny)

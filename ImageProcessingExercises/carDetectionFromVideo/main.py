@@ -13,15 +13,6 @@ while True:
     for (x,y,w,h) in cars:
         cv2.rectangle(frames,(x,y),(x+w,y+h),(0,0,255),2)
 
-    #array = [[244, 4,  24,  24],
-#  [ 78, 106, 101, 101],
-#  [238 , 39 , 25 , 25],
-#  [272  ,25 , 24 , 24],
-#  [230 , 64 , 56 , 56]]
-    
-    #array = np.array(array)
-    
-    cv2.imwrite("carDetectionFromVideo\\deneme.jpg", array)
     #cv2.imshow('video2', frames)
     if cv2.waitKey(33) == 27:
         break

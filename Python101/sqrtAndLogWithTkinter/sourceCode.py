@@ -54,6 +54,7 @@ def Hesapla():
         hgLabel.configure(text=strn)
     except:
         messagebox.showwarning(title="Hata", message="Girdiler hatalıdır. Kontrol ediniz")
+        raise
 
 hesaplaButton = tk.Button(window, text="Hesapla", font="Ariel 10", fg="red", command=Hesapla)
 hesaplaButton.place(relx=0.5, rely=0.8, anchor="center")
